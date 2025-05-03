@@ -7,17 +7,12 @@
 </head>
 <body>
     <script>
-        var x=parseInt(prompt("Ingrese un numero"));
+        var datos=[20,30,40];
 
-        if(x%2==0)
-        {
-            document.write("<h1>El numero ingresado es par</h>");
-        } 
-        else 
-        {
-            document.write("<h1>El numero ingresado es inpar</h>");
-            
+        for(var x=0;x<datos.length;x++){
+            document.write(datos[x]+"<br>")
         }
+
     </script>
 </body>
 </html>
